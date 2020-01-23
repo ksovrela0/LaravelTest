@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('title')
-Main
+About
 @endsection
 
 @section('content')
 
-<h1>Hello My Frinds</h1>
+<h1>about us block</h1>
 
 @endsection
