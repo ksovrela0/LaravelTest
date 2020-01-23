@@ -5,12 +5,11 @@
     <title>@yield('title')</title>
   </head>
   <body>
-
-    @yield('content')
-
     <ul>
       <li> <a href="/">Home</a> </li>
+      <li> <a href="/news">News</a> </li>
       <li> <a href="/about">About Us</a> </li>
     </ul>
+    @yield('content')
   </body>
 </html>
